@@ -1,0 +1,22 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button, select, textarea { font-family: inherit; }
+
+a { text-decoration: none; color: inherit; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #e50914; border-radius: 3px; }
+
+::selection { background: rgba(229, 9, 20, 0.35); }
+
+/* Global transitions */
+button { transition: all 0.2s ease; }
